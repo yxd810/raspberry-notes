@@ -16,7 +16,7 @@ from socketserver import ThreadingMixIn  # 添加这一行,以支持多线程
 # ========== 配置 ==========
 CONFIG_FILE = "config.ini"
 DEFAULT_PORT = 8000
-DEFAULT_ROOT = os.path.abspath(".")
+DEFAULT_ROOT = os.path.abspath("./Notes")
 
 g_port = DEFAULT_PORT
 g_root_dir = DEFAULT_ROOT
